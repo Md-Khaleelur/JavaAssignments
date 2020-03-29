@@ -1,0 +1,22 @@
+Your weight 
+30
+Error: Less Weight
+This is inside the finally block
+com.company.LessWeightException: Less Weight
+	at com.company.WaterSlide.main(WaterSlide.java:37)
+
+
+Your weight 
+70
+Error: Over Weight
+This is inside the finally block
+com.company.OverWeightException: Over Weight
+	at com.company.WaterSlide.main(WaterSlide.java:39)
+
+
+Your weight 
+
+Error: Enter valid weight
+This is inside the finally block
+com.company.EmptyWeightException: Enter valid weight
+	at com.company.WaterSlide.main(WaterSlide.java:35)
