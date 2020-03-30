@@ -2,6 +2,7 @@ package com.company;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.regex.Pattern;
 
 class SearchDirectory {
@@ -12,9 +13,9 @@ class SearchDirectory {
         this.pattern = pattern;
     }
 
-    ArrayList<String> matchedFiles=new ArrayList<String>();
+    List<String> matchedFiles=new ArrayList<String>();
 
-    public ArrayList<String> searchFiles(File[] files) {
+    public List<String> searchFiles(File[] files) {
 
         for (File file : files) {
 
