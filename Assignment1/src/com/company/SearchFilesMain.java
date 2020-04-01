@@ -7,7 +7,8 @@ public class SearchFilesMain {
     public static void main(String[] args) {
 
         Scanner sc=new Scanner(System.in);
-        File file = new File("/home/rehman/Desktop/new");
+        String loc = System.getProperty("user.home");
+        File file = new File(loc);
         File[] files=file.listFiles();
 
         System.out.println("Enter the pattern to search the files");

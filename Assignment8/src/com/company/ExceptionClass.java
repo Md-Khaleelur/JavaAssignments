@@ -1,6 +1,6 @@
 package com.company;
-class EmptyWeightException extends Exception{
-    public EmptyWeightException(String s){
+class InvalidWeightException extends Exception{
+    public InvalidWeightException(String s){
         super(s);
     }
 }

@@ -1,36 +1,29 @@
 package com.company;
-
 import java.util.*;
-import java.text.ParseException;
 
 public class GruberHealthcare {
 
-    public static void main(String args[]) throws ParseException {
+    public static void main(String[] args) {
 
-        int compare;
-        int i;
-        int n;
-        Scanner sc=new Scanner(System.in);
-        n=sc.nextInt();
-        String signUp[]=new String[n];
-        String currentDate[]=new String[n];
+        KYCDateRange kyc=new KYCDateRange();
 
-        for(i=0;i<n;i++) {
-            signUp[i]=sc.next();
-            currentDate[i]=sc.next();
-        }
+        Scanner scanner=new Scanner(System.in);
+        System.out.println("Enter the no of dates");
+        int n=scanner.nextInt();
 
-        for(i=0;i<n;i++) {
+        String[] signUpDates=new String[n];
+        String[] currDate=new String[n];
 
-            KYCDateRange kyc=new KYCDateRange(signUp[i],currentDate[i]);
-            compare=kyc.compareDates(kyc.getSignUpDate(),kyc.getCurrDate());
+        for(int i=0;i<n;i++) {
 
-            if(compare>=0)
-                System.out.println("No range");
-            else
-                System.out.println(kyc.findRange());
+            signUpDates[i]=scanner.next();
+            currDate[i]=scanner.next();
+
+            kyc.findRange(signUpDates[i],currDate[i]);
 
         }
+
     }
 }
+
 

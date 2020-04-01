@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="575beba8-5a62-4e1e-80c4-b955bba842bf" name="Default Changelist" comment="" />
+    <list default="true" id="575beba8-5a62-4e1e-80c4-b955bba842bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/out/production/Assignment1/com/company/SearchFilesMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/out/production/Assignment1/com/company/SearchFilesMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment1/src/com/company/SearchFilesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/src/com/company/SearchFilesMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment2/StringCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/out/production/Assignment2/StringCheck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment2/StringCheckMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/out/production/Assignment2/StringCheckMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/StringCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/src/StringCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment2/src/StringCheckMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/src/StringCheckMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/out/production/JavaAssignment5/khaleel/assignment/singleton/Second.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/out/production/JavaAssignment5/khaleel/assignment/singleton/Second.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/src/khaleel/assignment/data/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/khaleel/assignment/data/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment5/src/khaleel/assignment/singleton/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/khaleel/assignment/singleton/Second.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignmment8/com/company/EmptyWeightException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignmment8/com/company/LessWeightException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignmment8/com/company/LessWeightException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignmment8/com/company/OverWeightException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignmment8/com/company/OverWeightException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Assignmment8/com/company/WaterSlide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignmment8/com/company/WaterSlide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ExceptionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ExceptionClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/WaterSlide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/WaterSlide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/output" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/output" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +35,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZhMbDjPbIEw7VCDSVsMmOI6txX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -68,26 +93,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="604" height="174" key="GridCell.Tab.0.bottom" timestamp="1585484739073">
+    <state width="1253" height="174" key="GridCell.Tab.0.bottom" timestamp="1585680011757">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="174" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585484739073" />
-    <state width="604" height="174" key="GridCell.Tab.0.center" timestamp="1585484739073">
+    <state width="1253" height="174" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1585680011757" />
+    <state width="1253" height="174" key="GridCell.Tab.0.center" timestamp="1585680011756">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="174" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585484739073" />
-    <state width="604" height="174" key="GridCell.Tab.0.left" timestamp="1585484739072">
+    <state width="1253" height="174" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1585680011756" />
+    <state width="1253" height="174" key="GridCell.Tab.0.left" timestamp="1585680011755">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="174" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585484739072" />
-    <state width="604" height="174" key="GridCell.Tab.0.right" timestamp="1585484739073">
+    <state width="1253" height="174" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1585680011755" />
+    <state width="1253" height="174" key="GridCell.Tab.0.right" timestamp="1585680011757">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="604" height="174" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585484739073" />
-    <state x="678" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585484567888">
+    <state width="1253" height="174" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1585680011757" />
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585679954610">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="678" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1585484567888" />
+    <state x="678" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1585679954610" />
     <state x="67" y="27" width="1289" height="741" key="new project wizard" timestamp="1585291185900">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

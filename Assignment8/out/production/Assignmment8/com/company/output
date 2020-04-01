@@ -13,9 +13,10 @@ This is inside the finally block
 com.company.OverWeightException: Over Weight
 	at com.company.WaterSlide.main(WaterSlide.java:39)
 
-Your weight
-0
+
+Your weight 
+
 Error: Enter valid weight
 This is inside the finally block
-com.company.InvalidWeightException: Enter valid weight
-	at com.company.WaterSlide.main(WaterSlide.java:16)
+com.company.EmptyWeightException: Enter valid weight
+	at com.company.WaterSlide.main(WaterSlide.java:35)

@@ -1,11 +1,25 @@
+import java.util.Scanner;
+
 public class StringCheckMain {
 
-    public static void main(String[] args) {
+        public static void main(String[] args)
+        {
+            String message;
+            Scanner sc=new Scanner(System.in);
+            System.out.println("Enter the string");
+            message=sc.nextLine();
 
-        StringCheck stringCheck = new StringCheck();
-        System.out.println("hello:" + stringCheck.allAlphabets("hello"));
-        System.out.println("hi123:" + stringCheck.allAlphabets("hi123"));
+            StringCheck hc =new StringCheck(message);
 
-    }
+            if(hc.hashcheck())
+            {
+                System.out.println("Given string contains all the alphabets");
+            }
+            else
+            {
+                System.out.println("String does not contain all the alphabets");
+            }
+        }
+
 
 }

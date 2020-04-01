@@ -1,67 +1,37 @@
 package com.company;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.Date;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 class KYCDateRange {
 
-    private Date signUpDate,currDate;
-    private int compare1,compare2;
-    private  Date date;
-    private Date startKYCDate,endKYCDate;
-    private String sKYCFormatted, eKYCFormatted;
+    public void findRange(String signUpDates, String currDates){
 
-    private SimpleDateFormat sdf =new SimpleDateFormat("dd-MM-yyyy");
+        String newDate = signUpDates.substring(0,6)+ currDates.substring(6);
 
-    public KYCDateRange( String date1,String date2) throws ParseException {
-        this.signUpDate= sdf.parse(date1);
-        this.currDate= sdf.parse(date2);
-    }
+        LocalDate lowerRangeDate = LocalDate.parse(newDate, DateTimeFormatter.ofPattern("dd-LL-yyyy"));
+        LocalDate currLocalDate = LocalDate.parse(currDates, DateTimeFormatter.ofPattern("dd-LL-yyyy"));
 
-    public int compareDates(Date d1,Date d2) {
-        return d1.compareTo(d2);
-    }
+        String pastDate = lowerRangeDate.minusDays(30).format(DateTimeFormatter.ofPattern("dd-LL-yyyy"));
+        String futureDate = lowerRangeDate.plusDays(30).format(DateTimeFormatter.ofPattern("dd-LL-yyyy"));
 
-    public Date addDays(Date date ,int days) {
-        Calendar c =Calendar.getInstance();
-        c.setTime(date);
-        c.add(Calendar.DATE, days);
-        return c.getTime();
-    }
+        String signUpYear = signUpDates.substring(6,10);
+        String currYear = currDates.substring(6,10);
 
-    @SuppressWarnings("deprecation")
-    public String findRange() {
-
-        date = signUpDate;
-        date.setYear(currDate.getYear());
-
-        endKYCDate=addDays(date, 30);
-        startKYCDate=addDays(date, -30);
-
-        compare1 = compareDates(currDate,startKYCDate);
-        compare2 = compareDates(currDate,endKYCDate);
-
-        sKYCFormatted = sdf.format(startKYCDate);
-        eKYCFormatted = sdf.format(endKYCDate);
-
-        if(compare1 == 1 && compare2 == -1) {
-            return sKYCFormatted +" "+sdf.format(currDate);
-        }
+        if(signUpYear.equals(currYear))
+            System.out.println("No range");
 
         else {
-            return sKYCFormatted +" "+ eKYCFormatted;
+
+            System.out.print("\n"+pastDate);
+            int result = lowerRangeDate.plusDays(30).compareTo(currLocalDate);
+
+            if (result <= 0)
+                System.out.print("  " + futureDate);
+            else
+                System.out.print("  " + currDates);
+
         }
-
-    }
-
-    public Date getSignUpDate() {
-        return signUpDate;
-    }
-
-    public Date getCurrDate() {
-        return currDate;
     }
 
 }

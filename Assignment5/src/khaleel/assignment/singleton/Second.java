@@ -2,8 +2,8 @@ package khaleel.assignment.singleton;
 
 public class Second {
 
-    String memberVar;
-    static String var;
+    //String memberVar;
+    private static String var;
 
     public static Second staticMethod(String string) {
         //memberVar = string;   static method cannot use non-static variables
@@ -11,7 +11,8 @@ public class Second {
     }
 
     public void nonStaticMethod(String string) {
-        System.out.println(string);
+        var = string;
+        System.out.println(var);
     }
 
 }
