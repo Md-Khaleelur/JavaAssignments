@@ -53,7 +53,7 @@ public class PingHost {
         }
     }
 
-     double medianPing() {
+     private double medianPing() {
 
         int size = list.size();
         Collections.sort(list);
