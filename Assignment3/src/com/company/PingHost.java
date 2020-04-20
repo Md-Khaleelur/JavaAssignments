@@ -8,7 +8,11 @@ import java.util.List;
 
 public class PingHost {
 
-    List<Double> list = new ArrayList<Double>();
+    private List<Double> list ;
+
+    PingHost() {
+        list = new ArrayList<Double>();
+    }
 
     void commands(ArrayList<String> commandList) throws Exception {
         // creating the sub process, execute system command

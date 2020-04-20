@@ -2,31 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16c0db29-9bc3-4e84-9547-0ca184c581fe" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment1/out/production/Assignment1/com/company/SearchFilesMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/out/production/Assignment1/com/company/SearchFilesMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment1/src/com/company/SearchFilesMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment1/src/com/company/SearchFilesMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment2/StringCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/out/production/Assignment2/StringCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment2/out/production/Assignment2/StringCheckMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/out/production/Assignment2/StringCheckMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment2/src/StringCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/src/StringCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment2/src/StringCheckMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment2/src/StringCheckMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/com/company/GruberHealthcare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment4/com/company/GruberHealthcare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Assignment4/com/company/KYCDateRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Assignment4/com/company/KYCDateRange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/GruberHealthcare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/GruberHealthcare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/KYCDateRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/KYCDateRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment5/out/production/JavaAssignment5/khaleel/assignment/singleton/Second.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/out/production/JavaAssignment5/khaleel/assignment/singleton/Second.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment5/src/khaleel/assignment/data/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/khaleel/assignment/data/First.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment5/src/khaleel/assignment/singleton/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment5/src/khaleel/assignment/singleton/Second.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment8/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment8/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment8/out/production/Assignmment8/com/company/EmptyWeightException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment8/out/production/Assignmment8/com/company/LessWeightException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment8/out/production/Assignmment8/com/company/LessWeightException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment8/out/production/Assignmment8/com/company/OverWeightException.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment8/out/production/Assignmment8/com/company/OverWeightException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment8/out/production/Assignmment8/com/company/WaterSlide.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment8/out/production/Assignmment8/com/company/WaterSlide.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment8/src/com/company/ExceptionClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment8/src/com/company/ExceptionClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment8/src/com/company/WaterSlide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment8/src/com/company/WaterSlide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment8/src/com/company/output" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment8/src/com/company/output" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +23,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="RunManager" selected="Application.GruberHealthcare">
@@ -75,8 +50,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.GruberHealthcare" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
